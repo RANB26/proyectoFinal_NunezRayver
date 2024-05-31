@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export const Inicio = () => {
     return (
         <>
@@ -8,9 +10,9 @@ export const Inicio = () => {
                     <p>
                         Puedes encontrar cualquier tipo de camiseta basica de cualquiera de tus marcas preferidas
                     </p>
-                    <button className="button-white-borders" type="button">
+                    <NavLink to="/camcrear" className="button-white-borders" type="button">
                         INGRESAR
-                    </button>
+                    </NavLink>
                 </div>
             </div>
         </div>
