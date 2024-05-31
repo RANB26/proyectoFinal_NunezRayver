@@ -1,0 +1,206 @@
+@font-face {
+    font-family: "Sora";
+    src: url("../src/assets/fonts/Sora-Light.ttf");
+}
+
+.font-f-sora {
+    font-family: 'Sora';
+}
+
+.button-white-borders {
+    background-color: transparent;
+    padding: 5px 15px;
+    border: 1px solid white;
+    color: white;
+    transition: .4s;
+    margin: 25px 0 5px 0;
+}
+
+.button-white-borders:hover {
+    background-color: white;
+    color: black;
+}
+
+.contenedor-form {
+    width: 100%;
+    margin: 30px 0px 80px 0px;
+    font-family: 'Sora';
+}
+
+.contenedor-form  h1 {
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Sora';
+}
+
+.contenedor-form .header {
+    margin-bottom: 80px;
+}
+
+.contenedor-form  #description {
+    font-size: 24px;
+}
+
+.contenedor-form  .form-wrap {
+    background: rgba(255, 255, 255, 1);
+    width: 100%;
+    max-width: 850px;
+    padding: 50px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.contenedor-form  .form-wrap:before {
+    content: "";
+    width: 90%;
+    height: calc(100% + 60px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: -30px;
+    background: #000000;
+    z-index: -1;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.contenedor-form  .form-group {
+    margin-bottom: 25px;
+}
+
+.contenedor-form  .form-group>label {
+    display: block;
+    font-size: 18px;
+    color: #000;
+}
+
+.contenedor-form  .custom-control-label {
+    color: #000;
+    font-size: 16px;
+}
+
+.contenedor-form  .form-control {
+    height: 50px;
+    background: #ecf0f4;
+    border-color: transparent;
+    padding: 0 15px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+}
+
+.contenedor-form  .form-control:focus {
+    border-color: #000000;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+}
+
+.contenedor-form  textarea.form-control {
+    height: 160px;
+    padding-top: 15px;
+    resize: none;
+}
+
+.contenedor-form  .btn {
+    padding: .657rem .75rem;
+    font-size: 18px;
+    letter-spacing: 0.050em;
+    transition: all 0.3s ease-in-out;
+}
+
+.contenedor-form  .btn-primary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 0px;
+}
+
+.contenedor-form  .btn-primary:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+}
+
+.contenedor-form  .btn-primary:focus,
+.contenedor-form  .btn-primary.focus {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+}
+
+.contenedor-form  .btn-primary:not(:disabled):not(.disabled):active,
+.contenedor-form  .btn-primary:not(:disabled):not(.disabled).active,
+.contenedor-form  .show>.btn-primary.dropdown-toggle {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+.contenedor-form  .btn-primary:not(:disabled):not(.disabled):active:focus,
+.contenedor-form  .btn-primary:not(:disabled):not(.disabled).active:focus,
+.contenedor-form  .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+}
+
+.contenedor-listar{
+    padding: 20px 40px;
+}
+
+.contenedor-listar  h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contenedor-listar .header {
+    margin-bottom: 50px;
+}
+
+.contenedor-listar  #description {
+    font-size: 24px;
+}
+
+.contenedor-listar .form-wrap {
+    background: rgba(255, 255, 255, 1);
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.contenedor-listar  .form-wrap:before {
+    content: "";
+    width: 90%;
+    height: calc(100% + 60px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: -30px;
+    background: #000000;
+    z-index: -1;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.imagenListado{
+    width: 70px;
+    height: auto;
+}
+
+.maximoTamanoCreacion {
+    width: 350px;
+    height: auto;
+}
+
+.div-boton{
+    width: fit-content;
+    margin: 20px auto 0 auto;
+}

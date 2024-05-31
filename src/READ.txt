@@ -1,0 +1,14 @@
+#LIBRERIAS DEL PROYECTO
+
+- npm i bootstrap
+- npm i bootstrap-icons
+
+- npm i react-bootstrap
+
+- npm i react-router-dom : RUTEO
+- npm i react-toastify
+
+- npm i @fortawesome/fontawesome-free
+
+- npm i js-sha512 :CLAVES, ENCRIPTAR, CODIFICAR
+- npm i jwt-decode : DECODIFICAR
